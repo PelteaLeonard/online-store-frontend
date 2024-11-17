@@ -33,8 +33,8 @@ root.render(
       <StyledEngineProvider injectFirst>
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<App />}>
-              <Route path="/home" element={<Home />} />
+            <Route path="" element={<App />}>
+              <Route path="" element={<Home />} />
               <Route path="/register" element={<Register />} />
               <Route path="/continue-register" element={<ContinueRegister />} />
               <Route path="/login" element={<Login />} />
